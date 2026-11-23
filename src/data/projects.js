@@ -1,18 +1,91 @@
-// ВНИМАНИЕ: это заглушка. Замените массив на набор данных из задания
-// (поля img и category должны остаться теми же).
+
 const img = (seed, h) => `https://picsum.photos/seed/${seed}/400/${h}`;
 
+
 export default [
-  { id: 1, img: img('p1', 300), category: 'Business Cards' },
-  { id: 2, img: img('p2', 220), category: 'Websites' },
-  { id: 3, img: img('p3', 380), category: 'Flayers' },
-  { id: 4, img: img('p4', 260), category: 'Business Cards' },
-  { id: 5, img: img('p5', 320), category: 'Websites' },
-  { id: 6, img: img('p6', 240), category: 'Flayers' },
-  { id: 7, img: img('p7', 360), category: 'Business Cards' },
-  { id: 8, img: img('p8', 280), category: 'Websites' },
-  { id: 9, img: img('p9', 340), category: 'Flayers' },
-  { id: 10, img: img('p10', 250), category: 'Business Cards' },
-  { id: 11, img: img('p11', 300), category: 'Websites' },
-  { id: 12, img: img('p12', 220), category: 'Flayers' },
+  {
+    id: 1,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/mon.jpg',
+    category: 'Business Cards',
+  },
+  {
+    id: 2,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/200.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 3,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/emi_haze.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 4,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/codystretch.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 5,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/Triangle_003.jpg',
+    category: 'Business Cards',
+  },
+  {
+    id: 6,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/place200x290.png',
+    category: 'Websites',
+  },
+  {
+    id: 7,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/200.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 8,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/transmission.jpg',
+    category: 'Business Cards',
+  },
+  {
+    id: 9,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/place200x290_1.png',
+    category: 'Websites',
+  },
+  {
+    id: 10,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/place200x290_2.png',
+    category: 'Flayers',
+  },
+  {
+    id: 11,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/the_ninetys_brand.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 12,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/dia.jpg',
+    category: 'Business Cards',
+  },
+  {
+    id: 13,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/Triangle_350x197.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 14,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/emi_haze.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 15,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/transmission.jpg',
+    category: 'Business Cards',
+  },
+  {
+    id: 16,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/Triangle_350x197_1.jpg',
+    category: 'Websites',
+  },
+  {
+    id: 17,
+    img: 'https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/filter/img/place200x290_3.png',
+    category: 'Flayers',
+  },
 ];
