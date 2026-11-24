@@ -1,6 +1,4 @@
 
-const img = (seed, h) => `https://picsum.photos/seed/${seed}/400/${h}`;
-
 
 export default [
   {
